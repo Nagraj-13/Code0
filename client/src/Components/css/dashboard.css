@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Background styles */
+  body {
+    background: linear-gradient(
+      90deg,
+      hsla(212, 93%, 49%, 1) 0%,
+      hsla(210, 90%, 80%, 1) 100%
+    );
+  }
+  
+  /* Glassmorphism card effect */
+  .map-sidebar {
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(16.5px);
+    -webkit-backdrop-filter: blur(16.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    flex-basis: 30%;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .main-container {
+    width: 100%;
+    gap: 20px;
+    display: flex;
+    padding: 20px;
+    /* padding: 30px 30px 0 0; */
+  }
+  
+  .map-main {
+    border-radius: 25px;
+    padding: 20px;
+    /* border:6px solid white; */
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(16.5px);
+    -webkit-backdrop-filter: blur(16.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    flex-basis: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .dashboard-title {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 3vw;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .radius-slider {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .radius-slider p {
+    color: white;
+    font-size: 1.5vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .radius-slider-title {
+    flex-basis: 50%;
+  }
+  
+  .slider {
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 50%;
+  }
+  
+  .slider span {
+    color: white;
+    font-size: 1.5vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+  }
+
+  .btn{
+    padding: 15px;
+    width:25vw;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+  }
